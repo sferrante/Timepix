@@ -195,6 +195,13 @@ for i in range(5):
 ########################## New Block ##############################################################################
 
 #      *** Improved Algorithm ***
+###########################################################################
+## Sometimes the GaAs intensifier data gives an error with this algorithm.
+## The NewdeltaT array is still filled correctly, but the following 2 lines 
+## should get rid of this error
+## del TimeChan1[-1] 
+## del TimeChan2[-1]
+###########################################################################
 NewdeltaT = []
 subgrp = []
 sublength1 = 1
