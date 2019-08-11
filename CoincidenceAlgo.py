@@ -125,7 +125,6 @@ for i in range(len(a1) + len(a2)):
     if (new_C[i] == 2):
         AChan1.append(0)
         AChan2.append(new_A[i])
-        
 for i in range(len(AChan1)):
     if(AChan1[i]==0):
         AChan1[i]=AChan1[i-1]   
@@ -140,7 +139,6 @@ for i in range(len(x1) + len(x2)):
     if (new_C[i] == 2):
         XChan1.append(0)
         XChan2.append(new_X[i])
-        
 for i in range(len(XChan1)):
     if(XChan1[i]==0):
         XChan1[i]=XChan1[i-1]   
@@ -155,7 +153,6 @@ for i in range(len(y1) + len(y2)):
     if (new_C[i] == 2):
         YChan1.append(0)
         YChan2.append(new_Y[i])
-        
 for i in range(len(YChan1)):
     if(YChan1[i]==0):
         YChan1[i]=YChan1[i-1]   
