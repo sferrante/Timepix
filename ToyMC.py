@@ -9,4 +9,4 @@ import random
 from scipy.stats import norm
 plt.rcParams["figure.figsize"] = (3,3)
 
-print(time.ctime())
+
